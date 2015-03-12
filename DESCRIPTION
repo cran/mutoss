@@ -1,7 +1,7 @@
 Package: mutoss
 Type: Package
-Title: Unified multiple testing procedures
-Version: 0.1-8
+Title: Unified Multiple Testing Procedures
+Version: 0.1-9
 Author: MuToss Coding Team (Berlin 2010), Gilles Blanchard, Thorsten Dickhaus,
     Niklas Hack, Frank Konietschke, Kornelius Rohmeyer, 
     Jonathan Rosenblatt, Marsel Scheer, Wiebke Werft
@@ -15,7 +15,7 @@ Imports: plotrix, multtest (>= 2.2.0), multcomp (>= 1.1-0), methods
 License: GPL
 LazyLoad: yes
 URL: http://mutoss.r-forge.r-project.org/
-Packaged: 2014-02-17 19:23:56 UTC; kornel
 NeedsCompilation: no
+Packaged: 2015-03-12 17:55:33 UTC; kornel
 Repository: CRAN
-Date/Publication: 2014-02-17 22:41:35
+Date/Publication: 2015-03-12 20:36:02
