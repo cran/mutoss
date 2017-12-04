@@ -1,21 +1,22 @@
 Package: mutoss
 Type: Package
 Title: Unified Multiple Testing Procedures
-Version: 0.1-10
+Version: 0.1-12
 Author: MuToss Coding Team (Berlin 2010), Gilles Blanchard, Thorsten Dickhaus,
     Niklas Hack, Frank Konietschke, Kornelius Rohmeyer, 
     Jonathan Rosenblatt, Marsel Scheer, Wiebke Werft
 Maintainer: Kornelius Rohmeyer <rohmeyer@small-projects.de>
-Description: The Mutoss package and accompanying mutossGUI package are
-    designed to ease the application and comparison of multiple
-    hypothesis testing procedures.
+Description: Designed to ease the application and comparison of multiple
+    hypothesis testing procedures for FWER, gFWER, FDR and FDX. Methods are 
+    standardized and usable by the accompanying 'mutossGUI'.
 Depends: R (>= 2.10.0), mvtnorm
-Suggests: fdrtool, qvalue, RUnit, lattice
+Suggests: fdrtool, qvalue, testthat, lattice
 Imports: plotrix, multtest (>= 2.2.0), multcomp (>= 1.1-0), methods
 License: GPL
 LazyLoad: yes
-URL: http://mutoss.r-forge.r-project.org/
+URL: https://github.com/kornl/mutoss/
+BugReports: https://github.com/kornl/mutoss/issues/
 NeedsCompilation: no
-Packaged: 2015-04-02 15:02:49 UTC; kornel
+Packaged: 2017-12-04 11:43:25 UTC; kornl
 Repository: CRAN
-Date/Publication: 2015-04-02 17:52:00
+Date/Publication: 2017-12-04 16:31:04 UTC
